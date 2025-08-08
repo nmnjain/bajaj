@@ -6,7 +6,7 @@ class LLMService:
     def __init__(self):
         try:
             self.chat_model = ChatGoogleGenerativeAI(
-                model="gemini-2.0-flash",
+                model="gemini-2.5-pro",
                 google_api_key=settings.GOOGLE_API_KEY,
                 convert_system_message_to_human=True 
             )
