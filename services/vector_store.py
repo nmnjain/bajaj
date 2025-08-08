@@ -1,5 +1,5 @@
 from typing import List
-from langchain_community.vectorstores import FAISS
+from langchain.vectorstores import FAISS
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from config import settings
 
