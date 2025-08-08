@@ -16,4 +16,5 @@ faiss-cpu
 
 langchain  
 langchain-openai
-numpy 
+langchain-community
+numpy
